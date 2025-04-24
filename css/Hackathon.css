@@ -1,0 +1,144 @@
+/* External Stylesheet (DSA.css) */
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../Images/I9.jpg'); /* Ensure correct path with transparency */
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    color: red;
+    height: 100vh; /* Ensures the body takes up full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    box-sizing: border-box; /* Ensure padding and border are included in total width and height */
+}
+
+h1 {
+    color: black; /* Change DSA-BATTLE title to black */
+    padding-top: 110px;
+    font-size: 3em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 0; /* Remove default margin */
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 36px; /* Increased font size for better visibility */
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: red; /* Red color for the close button */
+    transition: color 0.3s ease;
+}
+
+.close-btn:hover {
+    color: darkred; /* Darker shade when hovered */
+}
+
+.content {
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Limit the width */
+    max-width: 700px; /* Maximum width */
+    box-sizing: border-box; /* Ensure content fits inside box */
+}
+
+h4 {
+    color: #4CAF50;
+    font-size: 1.8em;
+    text-align: center;
+    margin-top: 0; /* Remove default margin */
+}
+
+.event-details {
+    line-height: 1.8;
+    font-size: 18px;
+    color: black; /* Change event details text to black */
+    text-align: center; /* Center the event details */
+    margin: 0; /* Remove default margin */
+}
+
+.event-details ul {
+    padding-left: 20px;
+    list-style: none; /* Remove default bullet points */
+}
+
+.event-details li {
+    margin-bottom: 12px;
+}
+
+.event-details a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.event-details a:hover {
+    text-decoration: underline;
+}
+
+/* Register Button Styling */
+.register-btn {
+    display: inline-block;
+    width: 200px;
+    margin: 40px auto;
+    padding: 15px;
+    text-align: center;
+    background-color: hsl(0, 89%, 28%);
+    color: rgb(12, 12, 12); /* Change Register Here button text to black */
+    font-size: 1.2em;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.register-btn:hover {
+    background-color: hsl(0, 70%, 40%);
+    transform: scale(1.05);
+}
+
+/* Social Links Section */
+.social-links {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social-links a {
+    margin: 0 15px;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #0c0c0c;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
